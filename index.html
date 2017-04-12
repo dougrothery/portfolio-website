@@ -1,0 +1,101 @@
+
+
+
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css" />
+<title> Doug Rothery Photography </title>
+</head>
+
+<body>
+    <div id="page">
+        <div class="topNaviagationLink"><a href="index.html">Home</a></div>
+        <div class="topNaviagationLink"><a href="about.html">About</a></div>
+        <div class="topNaviagationLink"><a href="portfolio.html">Portfolio</a></div>
+        <div class="topNaviagationLink"><a href="video.html">Videos</a></div>
+	    <div class="topNaviagationLink"><a href="contact.html">Contact</a></div>
+	</div>
+    <div id="mainPicture">
+    	<div class="picture">
+        	<div id="headerTitle">Doug Rothery</div>
+            <div id="headerSubtext">Photography</div>
+
+        </div>
+    </div>
+        <div class="contentBox">
+    	<div class="innerBox">
+
+
+        	<h1>Welcome to Doug Rothery Photography</h1>
+
+
+
+
+            <div class="contentText"><p> Please feel free to take a look at my extensive portfolio of images and videos. </p><br />
+
+              <form name="navForm" action="{action page}">
+                <select name="jumpmenu" id="jumpmenu">
+                  <option>Go to page...</option>
+                  <option value="about.html">About Me</option>
+                  <option value="portfolio.html">Portfolio</option>
+                  <option value="video.html">Videos</option>
+                    <option value="contact.html">Contact</option>
+                </select>
+              </form>
+
+        <p> If you would like to have a chat about any future project please do not hestitate to contact me. </p><br />
+
+
+
+
+
+    </div>
+</div>
+<script>
+
+
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+
+  var e = document.getElementById("jumpmenu");
+
+
+  e.addEventListener("change", function() {
+
+
+      selectedURL = this.options[this.options.selectedIndex].value;
+
+
+      if (this.value != "null") {
+
+
+        var confirmLeave = confirm("Are you sure?");
+
+
+        if (confirmLeave==true) {
+
+
+          document.location.href = selectedURL;
+        }
+
+        else {
+          return false;
+        }
+      }
+
+  });
+
+});
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

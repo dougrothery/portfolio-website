@@ -1,0 +1,191 @@
+
+body {
+	text-align: center;
+	font-family:"Futura";
+	font-size: 12px;
+	color: #000000;
+	background: #000000 url(background.png);
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#page
+{
+  display: block;
+  height:auto;
+  position: relative;
+  overflow: hidden;
+  width: 670px;
+}
+
+.topNaviagationLink
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+font-size:16px;
+margin-left:-10px;
+width:121px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#000000;
+font-family:"Futura";
+}
+
+
+.topNaviagationLink a
+{
+text-decoration:none;
+color:#000000;
+margin-bottom:0px;
+}
+
+.topNaviagationLink a:hover
+{
+text-align:center;
+color:#FFFFFF;
+display: block;
+width:121px;
+height: 35px;
+line-height: 35px;
+background-color: #000000;
+border-bottom:none;
+}
+
+#mainPicture
+{
+clear:both;
+width:670px;
+height:345px;
+background-color:#000000;
+}
+
+#mainPicture .picture
+{
+position:relative;
+width:650px;
+height:325px;
+top:10px;
+margin-left:10px;
+background-image:url(mainImage.jpg);
+}
+
+.piccentre {
+	display:block;
+	border: 5px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.picright {
+	display:block;
+	border: 5px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.class {
+position: relative;
+top:100; left:100;}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+    border: black;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+
+
+
+#headerTitle
+{
+position:relative;
+top:14px;
+left:22px;
+font-size:44px;
+color:#efefef;
+font-family:"DubielPlain";
+}
+
+#headerSubtext
+{
+position:relative;
+top:14px;
+left:25px;
+font-size:18px;
+color:#414141;
+font-family:"Adobe Garamond Pro Bold";
+}
+
+.contentBox
+{
+margin-top:10px;
+width:670px;
+height:auto;
+}
+
+.contentBox .innerBox
+{
+position:relative;
+
+width:650px;
+height:auto;
+top:10px;
+margin-left:10px;
+background-image:url(contentBack.png);
+background-color:#FFFFFF;
+background-repeat:repeat-x;
+}
+
+h1
+{
+font-size:23px;
+margin-bottom:10px;
+padding-top:25px;
+margin-left:15px;
+margin-top:15px;
+color:#1F1603;
+text-align: center;
+}
+
+
+
+.contentText
+{
+font-size:13px;
+line-height:24px;
+margin-top: 10px;
+margin-left:13px;
+margin-right:13px;
+}
+
+
+
+a
+{
+color:#484848;
+border-bottom:dotted 1px;
+}
+
+a:hover
+{
+color:#000000;
+}
+
+
+
+
+html, body {
+text-align: center;
+}
+p {text-align: center;}
